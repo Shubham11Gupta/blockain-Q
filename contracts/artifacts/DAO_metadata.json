@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyFirstDAO.sol": "DAO"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyFirstDAO.sol": {
+			"keccak256": "0x86d41938f3c33cad184e7e735e6a20ff7d51b63a87c434c79c6c0992e8b91492",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8de782858e263037c3e5c3c74464f037d81e0bc63168b76258946d4016604dfd",
+				"dweb:/ipfs/QmXL4BJPpz6PXQ1CyffojXCUe9d71qYZLnpCr8oBtwTkng"
+			]
+		}
+	},
+	"version": 1
+}
