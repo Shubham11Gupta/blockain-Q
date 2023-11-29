@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -79,6 +84,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "addMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -92,6 +110,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "createProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "executeProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -162,6 +206,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -193,11 +250,24 @@
 					},
 					{
 						"internalType": "bool",
-						"name": "execute",
+						"name": "executed",
 						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "removeMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -211,6 +281,42 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_proposalId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "voteNo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_proposalId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "voteYes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -266,11 +372,11 @@
 	},
 	"sources": {
 		"contracts/MyFirstDAO.sol": {
-			"keccak256": "0xfdb34e1ca21c9011e33fe440778c839696f10865fd8d0034bdaf98dd18855c50",
+			"keccak256": "0x30eba7dcb1a06382fd6df547ed82c3a270cc93ee5c9175184f62f8ea1b6fc2b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2258fb4d090ce34761ef9ff38caa57053c9cf02c11ae8ac40546682b58a1e708",
-				"dweb:/ipfs/QmYeora2mv29Wm5bGyYLZo316bm9eG139oe5MhMSiqd3VF"
+				"bzz-raw://39ced4d98a5f01d805fd156b97edf85c19286e6c57ad5ec8c77f93b172109f16",
+				"dweb:/ipfs/QmREDUCFNa2KMJigBhNkxozZScJGjXeY9pHKBQ8w9EDqVT"
 			]
 		}
 	},
